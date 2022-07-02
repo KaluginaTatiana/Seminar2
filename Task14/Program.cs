@@ -7,7 +7,7 @@ Task14(n);
 
 void Task14(int number)
 {
-    if (number % 7 == 0 & number % 23 == 0)
+    if (number % 7 == 0 && number % 23 == 0)
         Console.WriteLine("Кратно.");
     else
         Console.WriteLine("Не кратно.");  
